@@ -18,10 +18,16 @@
             "email": "pardanaud.j@gmail.com"
         }
     ],
+    "repositories":[
+        {
+            "type": "git",
+            "url": "https://github.com/willsmanley/rialto"
+        }
+    ],
     "require": {
         "php": ">=7.1",
-        "nesk/rialto": "^1.2.0",
         "psr/log": "^1.0",
+        "nesk/rialto": "dev-update-symfony-process-dep",
         "vierbergenlars/php-semver": "^3.0.2"
     },
     "require-dev": {
